@@ -6,13 +6,14 @@ public class homework15 {
                 java.util.Scanner(System.in);
         int h = scanner.nextInt();
         int m = scanner.nextInt();
-
-        {
-            if ((h == 7 && m >= 30) || (h <= 17)) {
+        
+            if ((h == 7 && m >= 30) || (h <= 17))
+            {
                 System.out.println("in School");
-            } else {
+            } 
+            else
+            {
                 System.out.println("out School");
             }
-        }
     }
 }
