@@ -6,13 +6,13 @@ public class homework7 {
                 java.util.Scanner(System.in);
         int inp,sum;
 
-        System.out.println("input :");
+        System.out.println("input N:");
          inp=scanner.nextInt();
          sum=0;
         for (int n=1;n<=inp;n++)
         {
             sum+=n;
         }
-        System.out.println("Ans:"+sum);
+        System.out.println("The 1 add to N Ans:"+sum);
     }
 }
