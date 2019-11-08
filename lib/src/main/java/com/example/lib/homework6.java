@@ -9,8 +9,8 @@ public class homework6 {
         int inp=scanner.nextInt();
 
         if(inp%4==0)
-            System.out.println("yes!it'is");
+            System.out.println("Yes!It'is Leap year");
         else
-            System.out.println("NO!'it's not");
+            System.out.println("NO!It'is N year");
     }
 }
