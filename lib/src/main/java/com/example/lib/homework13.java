@@ -9,11 +9,15 @@ public class homework13 {
         char c = input.next().charAt(0);
         change(c);
     }
+    
     private static void change(char c) {
-        if(c>='A' && c<='Z'){
+        if(c>='A' && c<='Z')
+        {
             c+=32;
             System.out.println((c));
-        }else if(c>='a' && c<='z'){
+        }
+        else if(c>='a' && c<='z')
+        {
             c-=32;
             System.out.println((c));
         }
